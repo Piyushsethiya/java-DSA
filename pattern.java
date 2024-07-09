@@ -107,5 +107,37 @@ public class pattern {
     //     // i += 1;
     //     System.out.println();
     // }
+
+    // 1
+    // 2 3
+    // 4 5 6
+    // 7 8 9 10
+    // int nums = 1;
+    // for(int i=1;i<=n;i++){
+    //   for(int j=1; j<=i; j++){
+    //     System.out.print(nums + " ");
+    //     nums++;
+    //   }
+    //   System.out.println();
+    // }
+
+    // 1
+    // 0 1
+    // 1 0 1
+    // 0 1 0 1
+    // 1 0 1 0 1
+    int t = 1;
+    int f = 0;
+    for (int i=1; i<=n; i++){
+      for(int j=1; j<=i; j++){
+        int sum = i+j; 
+        if(sum%2 == 1){
+          System.out.print(t);
+        } else{
+          System.out.print(f);
+        }
+      }
+      System.out.println();
+    }
   }
 }
