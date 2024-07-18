@@ -81,10 +81,10 @@ public class exercisefun {
 
   // Write a function that calculates the Greatest Common Divisor of 2 numbers. (BONUS)
   public static int greatest_divisor(int a, int b) {
-      if (b == 0) {
-        return a;
-      }
-      while(b != 0){
+    if (b == 0) {
+      return a;
+    }
+    while (b != 0) {
       int temp = a % b;
       a = b;
       b = temp;
@@ -93,14 +93,20 @@ public class exercisefun {
   }
 
   // Write a program to print Fibonacci series of n terms where n is input by user : 0 1 1 2 3 5 8 13 21 .....
-  public static int Fibonacci(int n) {
-    int result = 0;
-    for(int i = 0; i<=n; i++){
-        result =+ i;
+  public static int[] Fibonacci(int n) {
+    int[] res = new int[n];
+    int pos = 0;
+    res[0] = pos;
+    // pos
+    for (int i = 1; i <= n; i++) {
+      // res[i] = pos + 
+      res[i + 1] = res[i] + i;
+      // pos  pos;
     }
-    System.out.println(result);
-    return result;
+    // System.out.println(res);
+    return res;
   }
+
   // In the Fibonacci series, a number is the sum of the previous 2 numbers that came before it. (BONUS)
 
   public static void main(String[] args) {
@@ -139,15 +145,14 @@ public class exercisefun {
     // int x = sc.nextInt();
     // n = sc.nextInt();
     // System.out.println("Power of "+x+"^"+n+": " + powerofnumber(x, n));
-    
+
     // System.out.print("Enter the first Number: " );
     // a = sc.nextInt();
     // System.out.print("Enter the second Number: " );
     // b = sc.nextInt();
     // System.out.println("Common Greatest Divisor is: " + greatest_divisor(a, b));
-    
+
     n = sc.nextInt();
     System.out.println(Fibonacci(n));
-
   }
 }
