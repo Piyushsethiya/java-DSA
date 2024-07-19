@@ -86,7 +86,7 @@ public class exercisefun {
     }
     while (b != 0) {
       int temp = a % b;
-      a = b;
+      a = b; ;
       b = temp;
     }
     return a;
