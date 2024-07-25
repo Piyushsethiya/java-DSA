@@ -2,13 +2,12 @@ import java.util.*;
 
 public class function {
 
-  public static void printname(String name) {
+  public static void print_name(String name) {
     System.out.println("My name is " + name);
     return;
   }
 
   // Make a multiply and return there product
-
   public static int multiply(int a, int b) {
     int product = a * b;
     return product;
@@ -31,7 +30,7 @@ public class function {
     Scanner sc = new Scanner(System.in);
 
     // String name = sc.next();
-    // printname(name);
+    // print_name(name);
 
     // int a = sc.nextInt();
     // int b = sc.nextInt();
