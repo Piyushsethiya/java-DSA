@@ -11,7 +11,7 @@ public class operation {
         
     }
     // Insertion Array
-    public static int add_array(int[] arr, int n) {
+    // public static int add_array(int[] arr, int n) {
         
-    }
+    // }
 }
