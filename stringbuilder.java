@@ -6,23 +6,23 @@ public class stringbuilder {
         // System.out.println(str);
 
         // set char At index - change the value of the index
-        str.setCharAt(0, 'M');
+        // str.setCharAt(0, 'M');
         // System.out.println(str);
 
         // insert function - add value
 
-        str.insert(0, '-');
+        // str.insert(0, '-');
         // System.out.println(str);
 
         // delete function
 
-        str.delete(4, 5);
-        str.delete(0, 1);
+        // str.delete(4, 5);
+        // str.delete(0, 1);
         // System.out.println(str);
 
         // append function- add the last index
 
-        str.append("a");
+        // str.append("a");
         // System.out.println(str);
 
         // revesre the String
